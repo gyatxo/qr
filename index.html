@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+    .attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  /* border: 1px solid black; */
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  border-radius: 10px;
+  width: 20%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.card img {
+  border: 1px;
+  border-radius: 10px;
+}
+
+.card .h {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.card p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 300;
+}
+.text {
+  padding: 10px;
+}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <img src="./images/image-qr-code.png" alt="qr-scan">
+    <div class="text">
+    <div class="h">
+    Improve your front-end skills by building projects
+    </div>
+  <div class="p">
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  </div>
+</div>
+  </div>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Urgen Gyatso Tamang</a>.
+  </div>
+</body>
+</html>
